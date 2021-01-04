@@ -30,8 +30,8 @@ Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 // setup() function -- runs once at startup --------------------------------
 
 // WiFi Parameters
-const char* ssid = "FRITZ!Box 7312";
-const char* password = "87147510181205287046";
+const char* ssid = "My_Router";
+const char* password = "My_Password";
 const char* host = "https://nms.lecos.de/api/table.json?content=sensors&columns=objid,downtimesince,device,sensor,lastvalue,status,message,priority&filter_status=5&filter_status=4&filter_status=10&filter_status=13&filter_status=14&sortby=priority&username=radtketo&passhash=1836154354";
 void setup() {
   Serial.begin(115200);
